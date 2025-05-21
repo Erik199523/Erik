@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto | TecnoRuta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .contacto-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #003366;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #0077cc;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+    .info {
+      margin-top: 2rem;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .whatsapp {
+      margin-top: 1rem;
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contacto - TecnoRuta</h1>
+  </header>
+
+  <div class="contacto-container">
+    <h2>Escribinos</h2>
+    <form action="erikbogado1995@gmail.com" method="POST" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="info">
+      <p><strong>Correo:</strong> erikbogado1995@gmail.com</p>
+      <p><strong>Teléfono:</strong> (0981) 118-137</p>
+      <p><strong>Dirección:</strong> Asunción, Paraguay</p>
+      <a class="whatsapp" href="https://wa.me/595981118137?text=Hola%2C+quiero+más+info+sobre+los+productos" target="_blank">
+        Escribinos por WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 TecnoRuta - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
