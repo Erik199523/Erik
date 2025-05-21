@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo | TecnoRuta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+    }
+    header {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .producto {
+      background: white;
+      border-radius: 8px;
+      width: 240px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      width: 100%;
+      height: 160px;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+    .producto h3 {
+      margin: 0.5rem 0;
+    }
+    .producto p {
+      color: #444;
+      font-size: 0.9rem;
+    }
+    .precio {
+      font-weight: bold;
+      color: #0077cc;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TecnoRuta</h1>
+    <p>Catálogo de productos</p>
+  </header>
+
+  <div class="catalogo">
+
+    <!-- Producto 1 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/240x160?text=Smartwatch" alt="Smartwatch">
+      <h3>Smartwatch S8</h3>
+      <p>Pantalla HD, Monitor de salud, Bluetooth</p>
+      <div class="precio">Gs. 250.000</div>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/240x160?text=Auriculares" alt="Auriculares">
+      <h3>Auriculares TWS</h3>
+      <p>Bluetooth 5.0, Estuche con carga, Compactos</p>
+      <div class="precio">Gs. 95.000</div>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/240x160?text=Mini+Proyector" alt="Mini Proyector">
+      <h3>Mini Proyector LED</h3>
+      <p>Resolución HD, Entrada HDMI/USB, Portátil</p>
+      <div class="precio">Gs. 450.000</div>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="producto">
+      <img src="https://via.placeholder.com/240x160?text=Teclado+Gamer" alt="Teclado Gamer">
+      <h3>Teclado Mecánico RGB</h3>
+      <p>Iluminado, Antighosting, USB</p>
+      <div class="precio">Gs. 160.000</div>
+    </div>
+
+    <!-- Podés seguir copiando y pegando este bloque para agregar más productos -->
+    <!--
+    <div class="producto">
+      <img src="URL-DE-LA-IMAGEN" alt="Nombre del producto">
+      <h3>Nombre del producto</h3>
+      <p>Descripción del producto</p>
+      <div class="precio">Precio</div>
+    </div>
+    -->
+
+  </div>
+
+</body>
+</html>
