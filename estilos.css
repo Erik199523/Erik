@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+header {
+  background-color: #003366;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+nav {
+  background-color: #005599;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('https://via.placeholder.com/1200x400?text=Bienvenidos+a+TecnoRuta');
+  background-size: cover;
+  background-position: center;
+  color: blue;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.contenido {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+.contenido h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+.contenido p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.btn-principal {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-principal:hover {
+  background-color: #005fa3;
+}
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
